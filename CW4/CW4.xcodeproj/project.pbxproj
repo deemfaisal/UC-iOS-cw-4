@@ -11,6 +11,7 @@
 		187220A528CFA33400C6C27C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187220A428CFA33400C6C27C /* ContentView.swift */; };
 		187220A728CFA33900C6C27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187220A628CFA33900C6C27C /* Assets.xcassets */; };
 		187220AA28CFA33900C6C27C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187220A928CFA33900C6C27C /* Preview Assets.xcassets */; };
+		187220B428CFB74300C6C27C /* PlayFair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 187220B328CFB74300C6C27C /* PlayFair.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		187220A428CFA33400C6C27C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		187220A628CFA33900C6C27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187220A928CFA33900C6C27C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		187220B328CFB74300C6C27C /* PlayFair.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PlayFair.ttf; path = ../PlayFair.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		187220A128CFA33400C6C27C /* CW4 */ = {
 			isa = PBXGroup;
 			children = (
+				187220B028CFB5EA00C6C27C /* Fonts */,
 				187220A228CFA33400C6C27C /* CW4App.swift */,
 				187220A428CFA33400C6C27C /* ContentView.swift */,
 				187220A628CFA33900C6C27C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				187220A928CFA33900C6C27C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		187220B028CFB5EA00C6C27C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				187220B328CFB74300C6C27C /* PlayFair.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187220AA28CFA33900C6C27C /* Preview Assets.xcassets in Resources */,
+				187220B428CFB74300C6C27C /* PlayFair.ttf in Resources */,
 				187220A728CFA33900C6C27C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
